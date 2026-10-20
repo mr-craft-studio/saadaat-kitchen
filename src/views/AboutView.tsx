@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Flame, Heart, Award, Clock, ArrowRight } from 'lucide-react';
 
 interface AboutViewProps {
@@ -14,7 +14,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
           Our Heritage & Philosophy
         </span>
         <h1 className="text-4xl sm:text-5xl font-display font-bold text-white tracking-tight">
-          Good Food <span className="text-red-500">❤️</span> Happy Mood
+          Good Food <span className="text-red-500">â¤ï¸</span> Happy Mood
         </h1>
         <p className="text-base sm:text-lg text-zinc-300 leading-relaxed">
           At Saadaat Kitchen, we believe that exceptional meals create joy. Every skewer of our Chicken Malai Tikka, every slow-cooked seekh kabab, and every golden crispy zinger is crafted with respect for authentic Pakistani culinary tradition.
@@ -25,7 +25,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div className="relative rounded-3xl overflow-hidden aspect-[4/3] glass-panel-gold p-2 shadow-2xl">
           <img
-            src="/src/assets/images/saadaat_hero_feast_1792494252618.jpg"
+            src="/images/saadaat_hero_feast_1792494252618.jpg"
             alt="Saadaat Kitchen Artisanal BBQ Platter"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover rounded-2xl"
@@ -125,3 +125,4 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
     </div>
   );
 };
+

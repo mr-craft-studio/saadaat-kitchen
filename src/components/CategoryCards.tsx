@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 interface CategoryCardsProps {
@@ -11,49 +11,49 @@ export const CategoryCards: React.FC<CategoryCardsProps> = ({ onSelectCategory }
       id: 'tikka-bbq',
       title: 'Chicken Tikka & BBQ',
       description: 'Charcoal grilled skewers, Malai Boti, Balochi Tikka & Seekh Kababs.',
-      image: '/src/assets/images/chicken_malai_tikka_1792494253354.jpg',
+      image: '/images/chicken_malai_tikka_1792494253354.jpg',
       count: '11 Items'
     },
     {
       id: 'rolls',
       title: 'Paratha Rolls & Wraps',
       description: 'Flaky parathas rolled with BBQ boti, garlic mayo, cheese & crisp salad.',
-      image: '/src/assets/images/chicken_mayo_roll_1792494255012.jpg',
+      image: '/images/chicken_mayo_roll_1792494255012.jpg',
       count: '16 Items'
     },
     {
       id: 'burgers',
       title: 'Burgers & Zingers',
       description: 'Signature crispy zinger burgers, double decker, and beef patties.',
-      image: '/src/assets/images/crispy_zinger_burger_1792494254928.jpg',
+      image: '/images/crispy_zinger_burger_1792494254928.jpg',
       count: '9 Items'
     },
     {
       id: 'sandwiches',
       title: 'Club Sandwiches',
       description: 'Multi-layer toasted club sandwiches, BBQ malai chicken, and cheese.',
-      image: '/src/assets/images/chicken_mayo_roll_1792494255012.jpg',
+      image: '/images/chicken_mayo_roll_1792494255012.jpg',
       count: '7 Items'
     },
     {
       id: 'fried-chicken',
       title: 'Crispy Broast & Fried Chicken',
       description: 'Golden fried chicken quarters with signature crust and dinner buns.',
-      image: '/src/assets/images/saadaat_hero_feast_1792494252618.jpg',
+      image: '/images/saadaat_hero_feast_1792494252618.jpg',
       count: '4 Items'
     },
     {
       id: 'fries-sides',
       title: 'Crispy Fries & Sides',
       description: 'Freshly cut potato fries dusted with chat masala and garlic mayo.',
-      image: '/src/assets/images/saadaat_hero_feast_1792494252618.jpg',
+      image: '/images/saadaat_hero_feast_1792494252618.jpg',
       count: '2 Items'
     },
     {
       id: 'deals',
       title: 'Deals & Family Combos',
       description: 'Chinese macaroni, steamed momos, and family feast platters.',
-      image: '/src/assets/images/special_deal_momos_combo_1792494255549.jpg',
+      image: '/images/special_deal_momos_combo_1792494255549.jpg',
       count: '2 Combos'
     }
   ];
@@ -117,3 +117,4 @@ export const CategoryCards: React.FC<CategoryCardsProps> = ({ onSelectCategory }
     </section>
   );
 };
+

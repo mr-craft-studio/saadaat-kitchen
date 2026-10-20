@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+﻿import React, { useState, useRef } from 'react';
 import { ArrowRight, Flame, Sparkles, Clock, Award } from 'lucide-react';
 
 interface Hero3DProps {
@@ -52,7 +52,7 @@ export const Hero3D: React.FC<Hero3DProps> = ({ onOrderNow, onExploreMenu }) => 
             </h1>
 
             <p className="text-lg sm:text-xl text-zinc-300 font-sans leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Good Food ❤️ Happy Mood — Fresh, Hot and Delicious. Handcrafted with traditional marinades, live charcoal flames, and premium ingredients.
+              Good Food â¤ï¸ Happy Mood â€” Fresh, Hot and Delicious. Handcrafted with traditional marinades, live charcoal flames, and premium ingredients.
             </p>
 
             {/* CTAs */}
@@ -123,7 +123,7 @@ export const Hero3D: React.FC<Hero3DProps> = ({ onOrderNow, onExploreMenu }) => 
                 {/* Primary Platter Image */}
                 <div className="relative rounded-2xl overflow-hidden aspect-[16/10] bg-zinc-950">
                   <img
-                    src="/src/assets/images/saadaat_hero_feast_1792494252618.jpg"
+                    src="/images/saadaat_hero_feast_1792494252618.jpg"
                     alt="Saadaat Kitchen Signature Charcoal BBQ & Fast Food Platter"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -172,3 +172,4 @@ export const Hero3D: React.FC<Hero3DProps> = ({ onOrderNow, onExploreMenu }) => 
     </section>
   );
 };
+

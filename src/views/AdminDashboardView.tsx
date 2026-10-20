@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext.tsx';
 import { useToast } from '../context/ToastContext.tsx';
 import { Order, Product, Deal, BusinessSettings, AdminAuditLog, ContactMessage, OrderStatus } from '../types/index.ts';
@@ -570,7 +570,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                       </span>
                     </div>
                     <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-zinc-300 text-[11px] leading-relaxed">
-                      💡 <strong>Rule Enforced:</strong> Unconfirmed draft dishes are hidden from public visitors until you review and confirm their PKR price in the "Menu & Prices" tab.
+                      ðŸ’¡ <strong>Rule Enforced:</strong> Unconfirmed draft dishes are hidden from public visitors until you review and confirm their PKR price in the "Menu & Prices" tab.
                     </div>
                   </div>
                 </div>
@@ -639,7 +639,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                                 {order.orderNumber}
                               </span>
                               <span className="text-[11px] text-zinc-500">
-                                {new Date(order.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} · {order.orderType === 'delivery' ? 'Delivery' : 'Pickup'}
+                                {new Date(order.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} Â· {order.orderType === 'delivery' ? 'Delivery' : 'Pickup'}
                               </span>
                             </div>
 
@@ -672,7 +672,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                                 className="p-1.5 rounded-lg bg-zinc-800 text-zinc-200 hover:text-white"
                                 title="Call customer"
                               >
-                                📞
+                                ðŸ“ž
                               </a>
                               <a
                                 href={`https://wa.me/${order.customerPhone.replace(/[^0-9]/g, '')}`}
@@ -681,7 +681,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                                 className="p-1.5 rounded-lg bg-emerald-950/60 border border-emerald-500/30 text-emerald-400"
                                 title="WhatsApp customer"
                               >
-                                💬
+                                ðŸ’¬
                               </a>
                             </div>
                           </div>
@@ -897,7 +897,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                       isPublished: true,
                       isAvailable: true,
                       description: '',
-                      image: '/src/assets/images/saadaat_hero_feast_1792494252618.jpg'
+                      image: '/images/saadaat_hero_feast_1792494252618.jpg'
                     });
                     setIsProductModalOpen(true);
                   }}
@@ -968,7 +968,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                               : 'bg-red-500/15 text-red-400 border border-red-500/30'
                           }`}
                         >
-                          {prod.isAvailable ? '✓ In Stock' : '✗ Sold Out'}
+                          {prod.isAvailable ? 'âœ“ In Stock' : 'âœ— Sold Out'}
                         </button>
 
                         <button
@@ -1125,7 +1125,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                       items: [''],
                       price: 750,
                       originalPrice: 900,
-                      image: '/src/assets/images/special_deal_momos_combo_1792494255549.jpg',
+                      image: '/images/special_deal_momos_combo_1792494255549.jpg',
                       isAvailable: true,
                       isPublished: true,
                       badge: 'Special Deal'
@@ -1510,7 +1510,7 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
                 onClick={() => setSelectedOrder(null)}
                 className="p-1.5 text-zinc-400 hover:text-white rounded-lg hover:bg-zinc-900"
               >
-                ✕
+                âœ•
               </button>
             </div>
 
@@ -1825,3 +1825,4 @@ export const AdminDashboardView: React.FC<AdminDashboardViewProps> = ({ onBackTo
     </div>
   );
 };
+
