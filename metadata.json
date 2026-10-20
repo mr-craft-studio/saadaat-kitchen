@@ -1,0 +1,6 @@
+{
+  "name": "Saadaat Kitchen",
+  "description": "Premium 3D restaurant website, online ordering system, AI customer support, and administrative management dashboard for Saadaat Kitchen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
