@@ -1,4 +1,4 @@
-﻿{
+{
   "products": [
     {
       "id": "prod-tikka-chest",
@@ -664,8 +664,8 @@
     {
       "id": "admin-1792507214277",
       "email": "admin@saadaatkitchen.com",
-      "passwordHash": "590c9bdc2947dd318109ef73db5133edc0247ce8b719302754b53a644158ef41b5f078f0dae2f8c4eabdcbad5a0fcd1331afa1abf23f54d0a318921ab5d34b7e",
-      "salt": "88656a8bb0f83539e3f3bc22905fe64e",
+      "passwordHash": "0d6553cd4cf5320bd44a7d2185f820318f0981401c9c7e8b514271df12c376d92968c5b4b66c8eec2349ae663521eaac5c7c192deb9005125297a270ba8f0582",
+      "salt": "de21f5441134c2d5ae930abba4051b41",
       "createdAt": "2026-10-20T14:40:14.278Z"
     }
   ],
